@@ -1,0 +1,117 @@
+                                                /*            BODY                     */
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell
+}
+                                                /*         BODY HEADER                       */
+.header {
+    display: flex;
+    color: white;
+}
+
+.headernav {
+    margin-left: 60%;
+    display: inline-flex;
+}
+
+li {
+    display: inline-flex;  
+}
+
+a {
+    color: white;
+    margin: 10px;
+}
+
+                                                /*          FIRST BACKGROUND IMAGE                       */
+.container1 {
+    width: 1200px;
+    height: 700px;
+    margin-left: 350px;
+    margin-right: 30px; 
+    position: relative;
+}
+
+.textblock1 {
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    background-color: black;
+    color: white;
+    width: 1200px;
+}
+
+                                                         /*             Tea Cozy 5 pics                           */
+.container2 {
+    height: 600px;
+    width: 1000px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.under {
+    margin-top: 8%;
+}
+
+
+.topleft,
+.topcenter,
+.topright,
+.bottomleft,
+.bottomright {
+    border: 10px solid black;
+}
+
+.bottomleft {
+    margin-left: 16%;
+}
+
+                                                         /*             Locations                        */
+
+.container3 {
+    position: relative;
+    text-align: center;
+}
+
+.textblock2 {
+    position: absolute;
+    top: 8px;
+    left: 45%;
+}
+
+.textblock3 {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.textblock4 {
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.textblock5 {
+    position: absolute;
+    top: 20%;
+    left: 61%;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    text-align: left;
+}
